@@ -16,6 +16,7 @@
 			<!-- Beauty was removed since strips can occupy the same cell and stack beauty unrealistically -->
 			<Flammability>0</Flammability>
 		</statBases>
+		<clearBuildingArea>false</clearBuildingArea>
 		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(1,1)</size>

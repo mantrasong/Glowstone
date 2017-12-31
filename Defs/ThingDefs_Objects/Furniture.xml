@@ -33,6 +33,7 @@
 				<glowColor>(165,177,192,0)</glowColor>
 			</li>
 		</comps>
+		<researchPrerequisites />
 	</ThingDef>
 
 	<ThingDef ParentName="LampBase" >
@@ -68,6 +69,7 @@
 				<glowColor>(165,177,192,0)</glowColor>
 			</li>
 		</comps>
+		<researchPrerequisites />
 	</ThingDef>
 	
 	<ThingDef Name="GlowstoneChandelierBase" ParentName="FurnitureBase" Abstract="True">
@@ -88,6 +90,7 @@
 		<statBases>
 			<Flammability>0</Flammability>
 		</statBases>
+		<clearBuildingArea>false</clearBuildingArea>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -104,6 +107,7 @@
 			<li>Glowstone.PlaceWorker_Roofed</li>
 			<li>Glowstone.PlaceWorker_Chandelier</li>
 		</placeWorkers>
+		<researchPrerequisites />
 	</ThingDef>
 	
 	<ThingDef ParentName="GlowstoneChandelierBase">
