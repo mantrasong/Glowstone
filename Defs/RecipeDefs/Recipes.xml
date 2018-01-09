@@ -41,7 +41,6 @@
 		<description>Cut and polish a glowstone cluster into 4 large glowstones.</description>
 		<workAmount>1600</workAmount>
 		<jobString>Cutting glowstone cluster.</jobString>
-		<workSpeedStat>MiningSpeed</workSpeedStat>
 		<workSkill>Construction</workSkill>
 		<workSkillLearnFactor>0.3</workSkillLearnFactor>
 		<effectWorking>CutStone</effectWorking>
@@ -110,7 +109,6 @@
 		<description>Cut and polish a large glowstone into 4 small glowstones.</description>
 		<workAmount>800</workAmount>
 		<jobString>Cutting large glowstone.</jobString>
-		<workSpeedStat>MiningSpeed</workSpeedStat>
 		<workSkill>Construction</workSkill>
 		<workSkillLearnFactor>0.3</workSkillLearnFactor>
 		<effectWorking>CutStone</effectWorking>
@@ -179,7 +177,6 @@
 		<description>Crush a small glowstone into 4 glowstone dust.</description>
 		<workAmount>400</workAmount>
 		<jobString>Crushing small glowstone.</jobString>
-		<workSpeedStat>MiningSpeed</workSpeedStat>
 		<workSkill>Construction</workSkill>
 		<workSkillLearnFactor>0.3</workSkillLearnFactor>
 		<effectWorking>CutStone</effectWorking>
