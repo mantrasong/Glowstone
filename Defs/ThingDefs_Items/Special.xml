@@ -30,7 +30,7 @@
 			</li>
 			<li Class="Glowstone.CompProperties_FilthDisappears">
 				<disappearsAfterRareTicks>25</disappearsAfterRareTicks>
-        <filthLeaving>FilthSand</filthLeaving>
+        <filthLeaving>Filth_RubbleRock</filthLeaving>
         <disappearsInRain>true</disappearsInRain>
         <rainMultiplier>5</rainMultiplier>
 			</li>

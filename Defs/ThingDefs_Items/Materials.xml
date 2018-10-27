@@ -17,7 +17,12 @@
 			<MarketValue>100</MarketValue>
 			<Mass>0.8</Mass>
 		</statBases>
-    <deepCommonality>0.25</deepCommonality>
+		<deepCommonality>0.25</deepCommonality>
+		<deepCountPerPortion>10</deepCountPerPortion>
+			<deepLumpSizeRange>
+			  <min>2</min>
+			  <max>10</max>
+		</deepLumpSizeRange>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -27,7 +32,7 @@
 				<glowColor>(150,185,205,0)</glowColor>
 			</li>
 		</comps>
-		<tradeability>Stockable</tradeability>
+		<tradeability>Buyable</tradeability>
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
@@ -49,7 +54,12 @@
 			<MarketValue>25</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
-    <deepCommonality>0.5</deepCommonality>
+		<deepCommonality>0.5</deepCommonality>
+		<deepCountPerPortion>20</deepCountPerPortion>
+		<deepLumpSizeRange>
+		  <min>5</min>
+		  <max>10</max>
+		</deepLumpSizeRange>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -59,7 +69,7 @@
 				<glowColor>(150,185,205,0)</glowColor>
 			</li>
 		</comps>
-		<tradeability>Stockable</tradeability>
+		<tradeability>Buyable</tradeability>
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
@@ -81,7 +91,12 @@
 			<MarketValue>400</MarketValue>
 			<Mass>4</Mass>
 		</statBases>
-    <deepCommonality>0.1</deepCommonality>
+		<deepCommonality>0.1</deepCommonality>
+		<deepCountPerPortion>5</deepCountPerPortion>
+		<deepLumpSizeRange>
+		  <min>1</min>
+		  <max>5</max>
+		</deepLumpSizeRange>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -91,7 +106,7 @@
 				<glowColor>(150,185,205,0)</glowColor>
 			</li>
 		</comps>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
@@ -122,7 +137,7 @@
 				<glowColor>(75,92,102,0)</glowColor>
 			</li>
 		</comps>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
@@ -153,7 +168,7 @@
 				<glowColor>(75,92,102,0)</glowColor>
 			</li>
 		</comps>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
@@ -166,7 +181,7 @@
     <description>A shell filled with batteries and glowstone dust, for generating a weak EMP pulse and lighting up an area for a short period of time when detonated. Electromagnetic pulses temporarily disable electrical circuits. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Shell/Shell_EMP</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <comps>
       <li Class="CompProperties_Explosive">
@@ -186,7 +201,7 @@
     <costList>
       <Steel>5</Steel>
 			<GLO_GlowstoneDust>15</GLO_GlowstoneDust>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -205,7 +220,7 @@
       <speed>41</speed>
       <explosionRadius>8.5</explosionRadius>
       <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>Explosion_EMP</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>

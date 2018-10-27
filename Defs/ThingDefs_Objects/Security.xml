@@ -10,7 +10,7 @@
     </graphicData>
     <costList>
       <GLO_Shell_EMP>1</GLO_Shell_EMP>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Explosive">

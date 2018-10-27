@@ -5,16 +5,17 @@
 		<defName>GLO_DustEMP</defName>
 		<label>glowstone EMP</label>
 		<externalViolence>true</externalViolence>
+		<externalViolenceForMechanoids>true</externalViolenceForMechanoids>
 		<deathMessage>{0} has been stunned to death.</deathMessage>
 		<impactSoundType>Electric</impactSoundType>
-		<armorCategory>Electric</armorCategory>
-		<explosionDamage>35</explosionDamage>
+		<armorCategory>Heat</armorCategory>
+		<defaultDamage>35</defaultDamage>
 		<explosionSnowMeltAmount>0</explosionSnowMeltAmount>
 		<explosionCellMote>Mote_BlastEMP</explosionCellMote>
 		<explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>
 		<explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
 		<soundExplosion>Explosion_EMP</soundExplosion>
-    <combatLogRules>Damage_Stun</combatLogRules>
+		<combatLogRules>Damage_Stun</combatLogRules>
 	</DamageDef>
 	
 </Defs>
