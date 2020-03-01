@@ -7,7 +7,7 @@
 			<color>(113,187,252,130)</color>
 		</graphicData>
 		<recipeMaker>
-			<workSpeedStat>SculptingSpeed</workSpeedStat>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Artistic</workSkill>
 			<unfinishedThingDef>GLO_UnfinishedGlowstoneSculpture</unfinishedThingDef>
 			<effectWorking>Sculpt</effectWorking>

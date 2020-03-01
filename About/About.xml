@@ -2,6 +2,9 @@
 <ModMetaData>
   <name>Glowstone</name>
   <author>mantrasong</author>
-  <targetVersion>1.0.2059</targetVersion>
+  <supportedVersions>
+	<li>1.1</li>
+  </supportedVersions>
+  <packageId>Mantrasong.Glowstone.1</packageId>
   <description>Adds mineable rocks which glow and can be used to provide light.</description>
 </ModMetaData>
