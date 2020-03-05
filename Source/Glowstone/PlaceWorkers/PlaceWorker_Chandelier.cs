@@ -4,7 +4,7 @@ namespace Glowstone {
 
   internal class PlaceWorker_Chandelier : PlaceWorker {
 
-		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null) {
       // Don't allow placing on big things
       foreach (IntVec3 c in GenAdj.CellsOccupiedBy(loc, rot, checkingDef.Size)) {
         if (c.GetEdifice(map) != null) {

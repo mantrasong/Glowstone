@@ -57,7 +57,7 @@ namespace Glowstone {
 
 		private void LeaveFilth(IntVec3 pos, Map map) {
 			if (pos.InBounds(map) && pos.Walkable(map)) {
-				FilthMaker.MakeFilth(pos, map, Props.filthLeaving, 1);
+				FilthMaker.TryMakeFilth(pos, map, Props.filthLeaving, 1);
 			}
 		}
 	}
