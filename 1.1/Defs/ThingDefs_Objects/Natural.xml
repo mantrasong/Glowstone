@@ -17,7 +17,7 @@
 		<building>
 			<isResourceRock>true</isResourceRock>
 			<mineableYield>3</mineableYield>
-			<mineableScatterCommonality>1</mineableScatterCommonality>
+			<mineableScatterCommonality>.5</mineableScatterCommonality>
 		</building>
 	</ThingDef>
 
