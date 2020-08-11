@@ -10,7 +10,7 @@
 		
 	</RecipeDef>
 	
-	<RecipeDef Name="CutBase" Abstract="True">
+	<RecipeDef Name="CutGlowBase" Abstract="True">
 		<jobString>Cutting glowstone.</jobString>
 		<workSkill>Construction</workSkill>
 		<workSkillLearnFactor>0.3</workSkillLearnFactor>
@@ -75,7 +75,7 @@
 	</RecipeDef>
 	
 <!-- Cut Cluster -->
-	<RecipeDef Name="CutClusterBase" ParentName="CutBase" Abstract="True">
+	<RecipeDef Name="CutClusterBase" ParentName="CutGlowBase" Abstract="True">
 		<description>Cut and polish a glowstone cluster into large glowstones.</description>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -187,7 +187,7 @@
 	</RecipeDef>
 	
 <!-- Cut Large Glow-->
-	<RecipeDef Name="CutLargeGlowBase" ParentName="CutBase" Abstract="True">
+	<RecipeDef Name="CutLargeGlowBase" ParentName="CutGlowBase" Abstract="True">
 		
 		<description>Cut and polish large glowstones into small glowstones.</description>
 		<fixedIngredientFilter>
@@ -299,7 +299,7 @@
 	</RecipeDef>
 	
 <!-- Crush Small-->
-	<RecipeDef Name="CutSmallGlowBase" ParentName="CutBase" Abstract="True">
+	<RecipeDef Name="CutSmallGlowBase" ParentName="CutGlowBase" Abstract="True">
 		
 		<description>Crush small glowstones into glowstone dust.</description>
 		<fixedIngredientFilter>
