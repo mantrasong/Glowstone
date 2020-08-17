@@ -54,7 +54,7 @@
 			<MarketValue>25</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
-		<deepCommonality>0.5</deepCommonality>
+		<deepCommonality>0.8</deepCommonality>
 		<deepCountPerPortion>20</deepCountPerPortion>
 		<deepLumpSizeRange>
 		  <min>5</min>

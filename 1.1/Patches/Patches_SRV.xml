@@ -14,6 +14,7 @@
 				<order>Prepend</order>
 				<value>					
 					<RecipeDef ParentName="WeldClusterBase">
+						<label>weld glowstone cluster</label>
 						<defName>GLO_WeldGlowstoneCluster</defName>
 						<workAmount>1600</workAmount>
 						<soundWorking>Recipe_Cremate</soundWorking>
@@ -22,6 +23,7 @@
 						</recipeUsers>
 					</RecipeDef>
 					<RecipeDef ParentName="WeldLargeBase">
+						<label>weld large glowstone</label>
 						<defName>GLO_WeldLargeGlowstone</defName>
 						<workAmount>600</workAmount>
 						<soundWorking>Recipe_Cremate</soundWorking>
@@ -30,6 +32,7 @@
 						</recipeUsers>
 					</RecipeDef>
 					<RecipeDef ParentName="WeldSmallBase">
+						<label>weld small glowstone</label>
 						<defName>GLO_WeldSmallGlowstone</defName>
 						<workAmount>400</workAmount>
 						<soundWorking>Recipe_Cremate</soundWorking>
